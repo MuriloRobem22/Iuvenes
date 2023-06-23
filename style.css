@@ -1,0 +1,112 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Krona+One&family=Montserrat&display=swap');
+
+
+*{
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+  color: inherit;
+}
+
+body{
+  height: 100vh;
+  background: #230031;
+  box-sizing: border-box;
+  color: #D7F9FF;
+  font-family: 'Krona One', sans-serif;
+  
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+padding: 3% 4% ;
+transition: all .5s;
+font-size: .5rem;
+}
+
+.box1{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 38%;
+}
+
+.logo{
+  font-family: 'Courgette', cursive;
+  font-size: 3rem;
+}
+
+nav .link_menu{
+  display: flex;
+  justify-content: end;
+  gap: 3rem;
+  flex-direction: row;
+  transition: all .5s;
+  align-items: center;
+}
+
+nav .link_menu a{
+  display: flex;
+  flex-direction: column;
+
+  white-space: nowrap;
+}
+
+.link_menu .links_menu:hover{
+  color: rgb(253, 122, 0);
+
+  }
+
+  .search{
+    width: 100%;
+    padding: 1rem 0;
+    color: aquamarine;
+    background-color: rgba(0, 255, 255, 0);
+    border: 1px solid rgb(253, 122, 0);
+    padding-left: 20px;
+    border-radius: 1rem 0 1rem 0rem;
+    
+  }
+
+  .search::placeholder{
+    color: rgb(253, 122, 0);
+    font-size: .5rem;
+    font-family: 'Krona One', sans-serif;
+    background-image: url('lupa.png');
+  }
+
+  main{
+    display: flex;
+    height: 30vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .links_menu_destaque{
+    background-color:rgb(253, 122, 0);
+    padding: 2% 0%;
+    margin: ;
+    color: #01080e;
+    padding: 3% 2.5%;
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    white-space: nowrap;
+    transition: all .5s;
+  }
+  .links_menu_destaque:hover{
+    padding: 3% 4%;
+  }
+
+  a .ps{
+    display: flex;
+    flex-direction: row;
+  }
