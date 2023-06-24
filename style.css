@@ -32,6 +32,16 @@ transition: all .5s;
 font-size: .5rem;
 }
 
+.divisor{
+  height: 1px;
+  width: 80%;
+  background: rgb(253,122,0);
+  background: -moz-linear-gradient(90deg, rgba(253,122,0,1) 0%, rgba(252,176,69,0) 59%);
+  background: -webkit-linear-gradient(90deg, rgba(253,122,0,1) 0%, rgba(252,176,69,0) 59%);
+  background: linear-gradient(90deg, rgba(253,122,0,1) 0%, rgba(252,176,69,0) 59%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fd7a00",endColorstr="#fcb045",GradientType=1);
+}
+
 .box1{
   display: flex;
   flex-direction: row;
@@ -94,7 +104,6 @@ nav .link_menu a{
   .links_menu_destaque{
     background-color:rgb(253, 122, 0);
     padding: 2% 0%;
-    margin: ;
     color: #01080e;
     padding: 3% 2.5%;
     border-bottom-right-radius: 2rem;
